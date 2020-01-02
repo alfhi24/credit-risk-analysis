@@ -21,3 +21,4 @@ input_testing_set <- datafeed[-indeks_training_set,]
 #menghasilkan dan menampilkan summary model
 risk_rating_model <- C5.0(input_training_set, class_training_set)
 summary(risk_rating_model)
+plot(risk_rating_model)
