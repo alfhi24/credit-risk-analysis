@@ -1,6 +1,3 @@
-library("openxlsx")
-library("C50")
-
 dataCreditRating <- read.xlsx(xlsxFile = "credit_scoring.xlsx")
 dataCreditRating$risk_rating <- as.factor(dataCreditRating$risk_rating) 
 
